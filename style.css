@@ -1,0 +1,87 @@
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: "Funnel Display", sans-serif;
+    font-weight: 300;
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    margin: 40px;
+}
+.container {
+    padding: 5px;
+    margin: 10px auto;
+    width: 350px;  
+
+}
+
+h2 {
+    text-align: center;
+    margin: 1.5em 0 0 0;
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+p {
+    margin: 1em 0 3.5em 0;
+    text-align: center;
+    opacity: 70%;
+}
+
+label {
+    display: inline;
+    margin: 1rem auto;
+    font-weight: lighter;
+}
+
+input {
+    display: block;
+    width: 100%;
+    min-height: 2em;
+    margin: 5px 0 15px 0;
+    background-color: #222831;
+    border: none;
+    color:#00ADB5;
+}
+
+input {
+    border-bottom: 1px solid #00ADB5;
+}
+
+img {
+    display: inline;
+    width: 4%;
+}
+
+
+.icons-title {
+    display: inline;
+    width: 8%;
+}
+
+button {
+    background-color: #00ADB5;
+    color:#EEEEEE;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    width: 55%;
+    height: 2.5em;
+    display: block;
+    margin: 2em auto;
+
+}
+
+button:hover {
+    background-color: #393E46;
+}
+
+.description {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    margin: 0.5em auto;
+}
+
+#message {
+    color: #00ADB5;
+}
